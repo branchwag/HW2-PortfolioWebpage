@@ -10,12 +10,14 @@
     padding: 0;
     font-family: 'Share Tech Mono', monospace;
     /* border: 2px solid black; */
+    box-sizing: border-box;
 }
 
 body {
     background-image: url("./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-size: contain; */
 }
 
 /* Header Styles */
@@ -57,7 +59,7 @@ header a:hover {
     height: 200px;
     border-radius: 50%; 
     object-fit: cover;
-    margin-right: 10px;
+    margin: 10px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.7);
 }
 
@@ -68,8 +70,14 @@ main {
     padding: 10px;
     margin-top: 10%;
     border: 2px solid black;
+    /* display: inline-block; */
+}
+
+.flexcontainer {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 main h2 {
@@ -80,8 +88,8 @@ main h2 {
 
 section {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+    height: 30%;
 }
 
 #aboutme p {
@@ -90,7 +98,10 @@ section {
 
 .workcontainer {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+
 }
 
 .workcontainer img {
@@ -98,8 +109,28 @@ section {
     margin: 10px;
 }
 
-.workcontainer #chatgpt {
+.chatgptcontainer {
+    position: relative;
+}
+
+.chatgptcontainer img:hover {
+    opacity: .5;
+}
+
+#placeholder:hover {
+    opacity: .5;
+}
+
+#chatgpt {
     width: 50%;
+}
+
+.text-block {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color: white;
+    background-color: #2d2645;
 }
 
 .workcontainer #placeholder {
@@ -111,6 +142,11 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+/* #contact ul {
+    display: flex;
+    justify-content: flex-end;
+} */
 
  #contact li {
     display: inline-block;
