@@ -113,6 +113,14 @@ section {
     position: relative;
 }
 
+.chatgptcontainer img:hover {
+    opacity: .5;
+}
+
+#placeholder:hover {
+    opacity: .5;
+}
+
 #chatgpt {
     width: 50%;
 }
