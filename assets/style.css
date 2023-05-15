@@ -139,11 +139,11 @@ section {
 
 .text-block {
     position: absolute;
-    top: 15px;
+    top: 12px;
     left: 20px;
     color: white;
     background-color: #2d2645;
-    padding: 10px;
+    padding: 20px;
 }
 
 .workcontainer #placeholder {
