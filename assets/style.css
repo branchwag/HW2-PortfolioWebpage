@@ -16,8 +16,8 @@
 body {
     background-image: url("./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
 }
 
 /* Header Styles */
@@ -70,7 +70,14 @@ main {
     padding: 10px;
     margin-top: 10%;
     border: 2px solid black;
-    display: inline-block;
+    /* display: inline-block; */
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 main h2 {
@@ -91,7 +98,9 @@ section {
 
 .workcontainer {
     display: flex;
-
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
 
 }
 
