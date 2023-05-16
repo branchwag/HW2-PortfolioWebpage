@@ -9,14 +9,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Share Tech Mono', monospace;
-    /* border: 2px solid black; */
     box-sizing: border-box;
 }
 
 body {
     background-image: url("./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-size: contain;
 }
 
@@ -96,19 +94,11 @@ section {
 .workcontainer {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
-    /* flex-basis: 0; */
-    /* justify-content: space-around;
-    align-items: center; */
-    /* width: 100%; */
-
 }
 
 .workcontainer img {
     border: 5px solid #2d2645;
     margin: 10px;
-    /* width: 500px;
-    height: 300px; */
 }
 
 .samplecontainer {
@@ -116,9 +106,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    /* height: auto; */
-    /* width: 50%; */
-    /* margin: 10px; */
 }
 
 .samplecontainer img:hover {
@@ -132,7 +119,6 @@ section {
 #sample {
     width: 50%;
     height: auto;
-    /* margin: 10px; */
 }
 
 .text-block {
@@ -153,11 +139,6 @@ section {
     justify-content: center;
     align-items: center;
 }
-
-/* #contact ul {
-    display: flex;
-    justify-content: flex-end;
-} */
 
  #contact li {
     display: inline-block;
