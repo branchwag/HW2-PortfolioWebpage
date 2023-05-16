@@ -15,7 +15,7 @@
 body {
     background-image: url("./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* Header Styles */
