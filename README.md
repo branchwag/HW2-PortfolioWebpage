@@ -1,4 +1,4 @@
-# <Module 2 Challenge - Portfolio Webpage>
+# Module 2 Challenge - Portfolio Webpage
 
 ## Description
 
