@@ -16,8 +16,8 @@
 body {
     background-image: url("./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: contain;
 }
 
 /* Header Styles */
@@ -69,15 +69,12 @@ main {
     background-color: #494454;
     padding: 10px;
     margin-top: 10%;
-    border: 2px solid black;
-    /* display: inline-block; */
+    border: 1px solid black;
 }
 
 .flexcontainer {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* align-items: center; */
 }
 
 main h2 {
@@ -98,22 +95,33 @@ section {
 
 .workcontainer {
     display: flex;
-    /* justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* flex-basis: 0; */
+    /* justify-content: space-around;
     align-items: center; */
-    width: 100%;
+    /* width: 100%; */
 
 }
 
 .workcontainer img {
     border: 5px solid #2d2645;
     margin: 10px;
+    /* width: 500px;
+    height: 300px; */
 }
 
-.chatgptcontainer {
+.samplecontainer {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* height: auto; */
+    /* width: 50%; */
+    /* margin: 10px; */
 }
 
-.chatgptcontainer img:hover {
+.samplecontainer img:hover {
     opacity: .5;
 }
 
@@ -121,16 +129,19 @@ section {
     opacity: .5;
 }
 
-#chatgpt {
+#sample {
     width: 50%;
+    height: auto;
+    /* margin: 10px; */
 }
 
 .text-block {
     position: absolute;
-    top: 17px;
-    left: 50px;
+    top: 12px;
+    left: 20px;
     color: white;
     background-color: #2d2645;
+    padding: 20px;
 }
 
 .workcontainer #placeholder {
