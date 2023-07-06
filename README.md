@@ -10,7 +10,7 @@ No installation required! This is a website.
 
 ## Usage
 
-Visit the page here: https://branchwag.github.io/HW2-PortfolioWebpage/
+Visit the page here: https://branchwag.github.io/PortfolioWebpage/ 
 
 Screenshot below:
 
